@@ -225,6 +225,22 @@ section main .banner{
         border-radius:4px;
         text-transform: uppercase;
     }
+    section .container .content button[type="submit"]{
+        margin-bottom: 50px;
+        background: #333;
+        border-radius: 2px;
+        border: 1px #333 solid;
+        color: #f0f0f1;
+        cursor: pointer;
+        font-size: 13px;
+        padding: 10px 16px;
+        text-transform: uppercase;
+    }
+    section .container .content button[type="submit"]:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: #da4453;
+}
     section .container .content .first .txt-btn button:hover{
         cursor: pointer;
     transition: 0.5s;
@@ -390,14 +406,17 @@ footer .container{
 footer .textcolorlib img{
 width: 70%;
 }
+footer .textcolorlib{
+    padding-top: 5px;
+}
 
-footer .container .hd h2{
+footer .container .hd h3{
     position: relative;
     font-family: "Roboto Slab", serif;
     font-weight: 700;
-    font-size: 18px;
-    margin-left: 50px;
-    color: #444;
+    font-size: 14px;
+    margin-left: 5px;
+    color: #999999;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -405,24 +424,86 @@ footer .container .hd p{
     color: #fff;
 }
 .cl{
-    margin-top: 20px;
+  
     display: grid;
     
 }
 .cl li a{
-    color: wheat;
+    color: #dadada;
     display: inline-block;
+    
     width: 300px;
     height: 40px;
-   border-bottom: #007aff 1px solid;
+    border-bottom: #999 1px solid;
 }
-footer .container .post{
-  
+footer .container .categories .cl li{
+  color: #999999;
+}
+footer .container .popular-post .post .date{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #999999;
+}
+footer .container .popular-wraper .post{
+    margin-top: 20px;
     display: grid;
-    grid: 1fr / auto auto;
-    grid-gap: 10px;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-items: center;
+    gap: 15px;
 }
+footer .container .textcolorlib p a{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+}
+footer .container .textcolorlib p{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #999999;
+}
+footer .container .post .post-content a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #dadada;
+}
+   .copyrightText{
+    height: 118px;
+    background-color: #1F1F1F;
+    padding: 10px 0;
+    border-top: 1px solid #3A3A3A;
+   }
+   .copyrightText .icons-social{
+    display: flex;
+    justify-content: center;
 
-   
+   }
+   .copyrightText .icons-social a i{
+        display: inline;
+        letter-spacing: 10px;
+        font-size: 40px;
+        color: #555050;
+   }
+   .copyrightText .icons-social .fa-square-twitter:hover{
+    transition: 1s;
+    color:rgba(6,147,227,1);
+}.copyrightText .icons-social .fa-square-facebook:hover{
+    transition: 1s;
+    color:rgb(40,116,252);
     
-  
+}.copyrightText .icons-social .fa-youtube:hover{
+    transition: 1s;
+    color: rgb(207,46,46);
+}
+.copyrightText .icons-social .fa-google-plus-g:hover{
+    transition: 1s;
+    color: rgb(254,45,45);
+    
+}
+.copyrightText .icons-social .fa-square-github:hover{
+    transition: 1s;
+    color: #007aff;
+}
