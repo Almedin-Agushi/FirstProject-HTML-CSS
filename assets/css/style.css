@@ -165,7 +165,7 @@ section main .banner{
     }
     section .container .content .first{
         width: 732px;
-        height: 750px;
+        height: 770px;
         background-color: #fff;
        border:1px solid rgb(163, 159, 159); 
     }
@@ -328,7 +328,7 @@ color: #da4453;
     margin-left: 30px;
    
 }
-aside .list-categories a{
+.aside .list-categories a{
     color: #C1C0C0;
 }
 .aside  ul li{
@@ -370,3 +370,59 @@ form.example input[type=search] {
   }
   
 /* Third Aside end ------------------------------------------------------ */
+/* Footer start---------------- */
+
+footer{
+    position:relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background-color: #333;
+}
+footer .container{
+    width: 70%;
+ 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 20px;
+}
+footer .textcolorlib img{
+width: 70%;
+}
+
+footer .container .hd h2{
+    position: relative;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 50px;
+    color: #444;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+footer .container .hd p{
+    color: #fff;
+}
+.cl{
+    margin-top: 20px;
+    display: grid;
+    
+}
+.cl li a{
+    color: wheat;
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+   border-bottom: #007aff 1px solid;
+}
+footer .container .post{
+  
+    display: grid;
+    grid: 1fr / auto auto;
+    grid-gap: 10px;
+}
+
+   
+    
+  
