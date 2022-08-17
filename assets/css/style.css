@@ -532,15 +532,53 @@ body{
     section .container {
         width:90%;
     }
-  
+    .mobile-menu{
+        width: 50px;
+        font-size: 23px;
+        text-align: center;
+        border: 1px #fff solid;
+        border-radius: 5px; ;
+        display: inline-block;
+    }
+    header{
+        width: 100%;
+        height: 70px;
+        background-color: #363636;
+        
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header .logo a{
+        font-family: 'Roboto Slab', serif;
+        font-size:20px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #dadada;
+    }
+    section main .textline {
+        display: none;
+     }
+   
+     header nav ul{
+             
+         display: none;
+         justify-content: space-evenly;
+ }
     section main .banner {
-        height: 21.8vh;
+        height: 27.3vh;
     }
     section main .textlinee span{
-        width: 500px;
+        width: 600px;
+        text-align: center;
+       
+        
     }
     section main .textlinee{
-        padding: 40px 40px;
+        padding: 30px 30px;
+        display: block;
+       text-align: center;
     }
 
     section main .textline h2{
@@ -578,10 +616,97 @@ footer .textcolorlib img {
 
 }
 
-/* @media(max-width:480px){
-    
-    section main .textline {
-       display: none;
+@media(max-width:480px){
+    section .container {
+        width:460px;
     }
-  
-} */
+    .mobile-menu{
+        width: 50px;
+        font-size: 23px;
+        text-align: center;
+        border: 1px #fff solid;
+        border-radius: 5px; ;
+        display: inline-block;
+    }
+    header{
+        width: 650px;
+        height: 70px;
+        background-color: #363636;
+        
+    
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    header .logo a{
+        font-family: 'Roboto Slab', serif;
+        font-size:20px;
+        line-height: 20px;
+        font-weight: 700;
+        color: #dadada;
+    }
+    section main .textline {
+        display: none;
+     }
+   
+     header nav ul{
+             
+         display: none;
+         justify-content: space-evenly;
+ }
+    section main .banner {
+        height: 27.3vh;
+        width: 650px;
+    }
+    section main .textlinee span{
+        width: 600px;
+        text-align: center;
+       
+        
+    }
+    section main .textlinee{
+        width: 650px;
+        padding: 50px 50px;
+        margin-top: -37px;
+        display: block;
+       text-align: center;
+    }
+
+    section main .textline h2{
+        width: 600px;
+        top: -80px;
+        left: -40px;
+        position: absolute;
+    }
+    section main .textline p{
+        width: 600px;
+        top: -30px;
+        left: -40px;
+        position: absolute;
+    }
+section div.container{
+    display: flex;
+    flex-direction: column;
+}
+section .container .content .first{
+    width: 100%;
+}
+
+section .aside  {
+    width: 620px;
+    height: auto;
+    padding-bottom: 50px;
+    margin-bottom: 70px;
+}
+
+footer{
+    width: 650px;
+    padding: 50px 50px;
+}
+footer .textcolorlib img {
+    width: 100%;
+}
+.copyrightText{
+    width: 650px;
+}
+}
